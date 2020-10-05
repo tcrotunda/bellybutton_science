@@ -1,0 +1,24 @@
+body {
+
+    color: black;
+    background-color: rgb(133,220,186);
+}
+
+.jumbotron {
+  text-align: left;
+  color: rgb(226, 125, 96);
+  background-color: rgb(133,220,186)
+}    
+    
+    
+.jumptron::after{
+  background-image: url("../images/header_img.jpg");
+  background-size: 100% 200%;
+}
+
+
+
+rgb(226, 125, 96)
+rgb(232, 168, 124)
+rgb(65,179,163)
+rgb(133,220,186)
