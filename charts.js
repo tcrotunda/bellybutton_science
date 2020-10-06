@@ -99,7 +99,7 @@ function buildCharts(sample) {
       type: "bar",
       orientation: 'h',
       marker: {
-        color: 'rgb(65,179,163)'
+        color: 'rgb(133,220,186)'
       }
     };
 
@@ -147,7 +147,7 @@ function buildCharts(sample) {
           t: 50,
           pad: 4
         },
-        paper_bgcolor: "rgb(133,220,186)",
+        paper_bgcolor: "rgb(65,179,163)",
         font: { color: "black", family: "Arial",}
     };
 
@@ -162,7 +162,11 @@ function buildCharts(sample) {
       value: wfreq,
       title: { text: '<b>Belly Button Washing Frequence</b><br>Scrubs per Week', fontsize: 12 },
       gauge: {
-        axis: {range: [0, 10]},
+        axis: {
+          range: [0, 10],
+          tickmode:"array",
+          tickvals:["0","2","4","6","8","10"]
+        },
         steps: [
           { range: [0, 2], color: "red" },
           { range: [2, 4], color: "orange" },

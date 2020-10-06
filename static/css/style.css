@@ -1,24 +1,19 @@
 body {
 
     color: black;
-    background-color: rgb(133,220,186);
+    background-color: rgb(65,179,163);
 }
 
 .jumbotron {
   text-align: left;
-  color: rgb(226, 125, 96);
-  background-color: rgb(133,220,186)
-}    
-    
-    
-.jumptron::after{
-  background-image: url("../images/header_img.jpg");
-  background-size: 100% 200%;
+  color: black;
+  background-color: rgb(65,179,163);
+  font-weight: bold
 }
 
 
-
-rgb(226, 125, 96)
+/*Color combos*/
+/*rgb(226, 125, 96)
 rgb(232, 168, 124)
 rgb(65,179,163)
-rgb(133,220,186)
+rgb(133,220,186)*/
